@@ -50,7 +50,7 @@ export default function Simple() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box>MAG Consultancy</Box>
+            <Box>MAG Consultants</Box>
             <HStack
               as={'nav'}
               spacing={4}
