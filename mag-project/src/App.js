@@ -11,10 +11,7 @@ import {
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
-<<<<<<< HEAD
 import Sample from './components/Sample';
-=======
->>>>>>> c096556134147bd4540b2de601f083194cdaf261
 import SampleNav from './components/SampleNav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
@@ -22,12 +19,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Testimonials from './pages/Testimonials';
-<<<<<<< HEAD
 
 import Navbar from './components/Navbar';
-=======
-import NavBar from './components/NavBar';
->>>>>>> c096556134147bd4540b2de601f083194cdaf261
 
 function App() {
   return (
