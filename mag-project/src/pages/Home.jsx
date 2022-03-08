@@ -11,7 +11,7 @@ import {
 
 const Home = () => {
   return (
-    <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
+    <Stack height={'calc(100vh - 64px)'} direction={{ base: 'column', md: 'row' }}>
     <Flex p={8} flex={1} align={'center'} justify={'center'}>
       <Stack spacing={6} w={'full'} maxW={'lg'}>
         <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
@@ -39,7 +39,7 @@ const Home = () => {
           The project board is an exclusive resource for contract work. It's
           perfect for freelancers, agencies, and moonlighters.
         </Text>
-        <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
+        <Stack direction={{ base: 'column', md: 'row' }} spacing={4} display={'flex'} justifyContent={'center'}>
           <Button
             rounded={'full'}
             bg={'blue.400'}

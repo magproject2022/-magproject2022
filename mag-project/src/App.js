@@ -27,17 +27,18 @@ function App() {
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
         <Navbar />
-        <Router>
-          <Routes>
-            <Route exact path="/" element={<Home />}></Route>
-            <Route exact path="/About" element={<About />}></Route>
-            <Route exact path="/Contact" element={<Contact />}></Route>
-            <Route exact path="/Services" element={<Services />}></Route>
-            <Route exact path="/Testimonials" element={<Testimonials />}></Route>
-          </Routes>
-        </Router>
-        <Grid minH="100vh" p={3}>
-          <VStack spacing={8}></VStack>
+        <Grid minH="calc(100vh - 64px)" p={0}>
+          <VStack spacing={8}>
+            <Router>
+              <Routes>
+                <Route exact path="/" element={<Home />}></Route>
+                <Route exact path="/About" element={<About />}></Route>
+                <Route exact path="/Contact" element={<Contact />}></Route>
+                <Route exact path="/Services" element={<Services />}></Route>
+                <Route exact path="/Testimonials" element={<Testimonials />}></Route>
+              </Routes>
+            </Router>
+          </VStack>
         </Grid>
       </Box>
     </ChakraProvider>

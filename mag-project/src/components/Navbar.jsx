@@ -19,7 +19,8 @@ import {
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
 
-const Links = [ 'About', 'Services', 'Testimonials', 'Contact'];
+
+const Links = ['Home', 'About', 'Services', 'Testimonials', 'Contact'];
 
 const NavLink = ({ children }) => (
   <Link
@@ -30,7 +31,7 @@ const NavLink = ({ children }) => (
       textDecoration: 'none',
       bg: useColorModeValue('gray.200', 'gray.700'),
     }}
-    href={`/${children}`}>
+    href={children == 'Home' ? '/' : `/${children}`}>
     {children}
   </Link>
 );
@@ -50,7 +51,14 @@ export default function Navbar() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            <Box><Link href={"/"}>MAG Consultants</Link></Box>
+            <Box>
+              <Link
+                fontWeight={'bolder'}
+                _hover={{
+                  textDecoration: 'none',
+                }} href={"/"}>MAG Consultants
+              </Link>
+            </Box>
             <HStack
               as={'nav'}
               spacing={4}
@@ -75,7 +83,7 @@ export default function Navbar() {
           </Box>
         ) : null}
 
-        
+
       </Box>
     </>
   );
