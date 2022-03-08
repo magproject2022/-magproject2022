@@ -32,9 +32,9 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/About" element={<About />}></Route>
-            <Route exact path="Contact" element={<Contact />}></Route>
-            <Route exact path="Services" element={<Services />}></Route>
-            <Route exact path="Testimonials" element={<Testimonials />}></Route>
+            <Route exact path="/Contact" element={<Contact />}></Route>
+            <Route exact path="/Services" element={<Services />}></Route>
+            <Route exact path="/Testimonials" element={<Testimonials />}></Route>
           </Routes>
         </Router>
         <Grid minH="100vh" p={3}>
