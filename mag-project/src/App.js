@@ -27,7 +27,6 @@ function App() {
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
         <Navbar />
-        <SampleNav />
         <Router>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
