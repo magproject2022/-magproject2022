@@ -11,7 +11,6 @@ import {
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
-import Sample from './components/Sample'
 import SampleNav from './components/SampleNav';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
@@ -19,14 +18,13 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Testimonials from './pages/Testimonials';
-
-import Navbar from './components/Navbar'
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
-        <Navbar />
+        <NavBar />
         <SampleNav />
         <Router>
       <Routes>
