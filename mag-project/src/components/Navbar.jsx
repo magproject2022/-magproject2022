@@ -26,6 +26,7 @@ const NavLink = ({ children }) => (
   <Link
     px={2}
     py={1}
+    fontSize={'lg'}
     rounded={'md'}
     _hover={{
       textDecoration: 'none',
@@ -54,6 +55,7 @@ export default function Navbar() {
             <Box>
               <Link
                 fontWeight={'bolder'}
+                // fontSize={'4xl'}
                 _hover={{
                   textDecoration: 'none',
                 }} href={"/"}>MAG Consultants
