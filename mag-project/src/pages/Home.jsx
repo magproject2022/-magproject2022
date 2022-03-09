@@ -8,6 +8,8 @@ import {
   Text,
   useBreakpointValue,
 } from '@chakra-ui/react';
+import { SimpleGrid } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 
 const Home = () => {
   return (
@@ -28,7 +30,7 @@ const Home = () => {
                 bg: 'blue.400',
                 zIndex: -1,
               }}>
-              Awesome Websites x
+              Awesome Websites
             </Text>
             <br />{' '}
             <Text color={'blue.400'} as={'span'}>
@@ -74,6 +76,7 @@ const Home = () => {
         />
       </Flex>
     </Stack>
+    
   )
 }
 

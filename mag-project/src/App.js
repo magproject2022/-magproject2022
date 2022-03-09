@@ -19,8 +19,12 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Testimonials from './pages/Testimonials';
-
+import HomeSection1 from './pages/HomeSection1';
+import HomeSection2 from './pages/HomeSection2';
+import Card from './pages/Card';
+import Features from './pages/Features';
 import Navbar from './components/Navbar';
+
 
 function App() {
   return (
@@ -41,6 +45,10 @@ function App() {
           </VStack>
         </Grid>
       </Box>
+    <HomeSection1/>
+    <HomeSection2/>
+    <Card/>
+    <Features/>
     </ChakraProvider>
   );
 }
