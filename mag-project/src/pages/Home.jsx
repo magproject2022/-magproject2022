@@ -28,7 +28,7 @@ const Home = () => {
                 bg: 'blue.400',
                 zIndex: -1,
               }}>
-              Awesome Websites
+              Awesome Websites x
             </Text>
             <br />{' '}
             <Text color={'blue.400'} as={'span'}>
