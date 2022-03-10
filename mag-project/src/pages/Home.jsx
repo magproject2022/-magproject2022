@@ -1,5 +1,6 @@
 import React from 'react'
 import {
+  Box,
   Button,
   Flex,
   Heading,
@@ -8,11 +9,13 @@ import {
   Text,
   useBreakpointValue,
 } from '@chakra-ui/react';
-import { SimpleGrid } from '@chakra-ui/react';
-import { Box } from '@chakra-ui/react';
+import HomeSection1 from '../components/HomeSection1';
+import HomeSection2 from '../components/HomeSection2';
+//import Features from '../components/Features';
 
 const Home = () => {
   return (
+    <Box>
     <Stack height={'calc(100vh - 64px)'} direction={{ base: 'column', md: 'row' }}>
       <Flex p={8} flex={1} align={'center'} justify={'center'}>
         <Stack spacing={6} w={'full'} maxW={'lg'}>
@@ -74,9 +77,13 @@ const Home = () => {
             'https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
           }
         />
-      </Flex>
+      </Flex> 
     </Stack>
-    
+    <HomeSection1/>
+    <HomeSection2/>
+    {/* <Features/> */}
+    </Box>
+
   )
 }
 
