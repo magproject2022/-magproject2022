@@ -10,7 +10,7 @@ import {
   useBreakpointValue,
 } from '@chakra-ui/react';
 import HomeSection1 from '../components/HomeSection1';
-import HomeSection2 from '../components/HomeSection2';
+//import HomeSection2 from '../components/HomeSection2';
 
 const Home = () => {
   return (

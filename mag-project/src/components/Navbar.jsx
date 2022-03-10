@@ -20,7 +20,7 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
 
 
-const Links = ['Home', 'About', 'Services', 'Testimonials', 'Contact'];
+const Links = ['Home', 'About', 'Services', 'Testimonials', 'Contact', 'Developers'];
 
 const NavLink = ({ children }) => (
   <Link
