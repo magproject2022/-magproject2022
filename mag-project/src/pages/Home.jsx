@@ -11,7 +11,6 @@ import {
 } from '@chakra-ui/react';
 import HomeSection1 from '../components/HomeSection1';
 import HomeSection2 from '../components/HomeSection2';
-//import Features from '../components/Features';
 
 const Home = () => {
   return (
@@ -33,16 +32,15 @@ const Home = () => {
                 bg: 'blue.400',
                 zIndex: -1,
               }}>
-              Awesome Websites
+              Reach out
             </Text>
             <br />{' '}
             <Text color={'blue.400'} as={'span'}>
-              just for you
+              to Us
             </Text>{' '}
           </Heading>
           <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-            The project board is an exclusive resource for contract work. It's
-            perfect for freelancers, agencies, and moonlighters.
+            MAG Consultants are here to help your recruitment needs
           </Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4} display={'flex'} justifyContent={'center'}>
             <Button
@@ -64,24 +62,22 @@ const Home = () => {
                 e.preventDefault();
                 window.location.href='/Contact';
               }}>
-              Contact Us
+              What We Do
               </Button>
           </Stack>
         </Stack>
       </Flex>
       <Flex flex={1}>
         <Image
-          alt={'Login Image'}
+          alt={'Landing Page Image'}
           objectFit={'cover'}
-          src={
-            'https://images.unsplash.com/photo-1527689368864-3a821dbccc34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
-          }
+          src={'./mainpic.avif'}
         />
       </Flex> 
     </Stack>
     <HomeSection1/>
-    <HomeSection2/>
-    {/* <Features/> */}
+    {/* <HomeSection2/> */}
+ 
     </Box>
 
   )
