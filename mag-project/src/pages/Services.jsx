@@ -1,8 +1,11 @@
 import React from 'react'
+//import ServiceHeader from '../components/ServiceHeader'
 
 const Services = () => {
   return (
-    <div>Our Services</div>
+    <div>Our Services
+      {/* <ServiceHeader/> */}
+    </div>
   )
 }
 
