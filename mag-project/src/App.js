@@ -19,8 +19,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Testimonials from './pages/Testimonials';
-
 import Navbar from './components/Navbar';
+
 
 function App() {
   return (
