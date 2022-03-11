@@ -20,7 +20,7 @@ import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Testimonials from './pages/Testimonials';
 import Navbar from './components/Navbar';
-
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -40,6 +40,7 @@ function App() {
             </Router>
           </VStack>
         </Grid>
+      <Footer/>
       </Box>
     </ChakraProvider>
   );
