@@ -1,10 +1,10 @@
 import React from 'react'
-//import ServiceHeader from '../components/ServiceHeader'
+import ServiceHeader from '../components/ServiceHeader'
 
 const Services = () => {
   return (
-    <div>Our Services
-      {/* <ServiceHeader/> */}
+    <div>
+      <ServiceHeader/>
     </div>
   )
 }
