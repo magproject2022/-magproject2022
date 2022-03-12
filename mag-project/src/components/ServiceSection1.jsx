@@ -1,0 +1,61 @@
+import React from 'react';
+import {
+    chakra,
+    Box,
+    Image,
+    Flex,
+    useColorModeValue,
+    Link
+  } from "@chakra-ui/react"; 
+ import './service.css'; 
+  
+const ServiceSection1 = (props) => {
+  
+          return (
+            
+            <Flex className = "parent"
+            bg={useColorModeValue("#F9FAFB", "gray.600")}
+            p={50}
+            w="auto"
+            alignItems="flex-start"
+            justifyContent="center"
+          >
+            <Box 
+              w="xs"
+              bg={useColorModeValue("white", "gray.800")}
+              shadow="lg"
+              rounded="lg"
+              overflow="hidden"
+              mx="auto"
+            >
+              <Image
+                w="full"
+                h={56}
+                fit="cover"
+                src={props.image}
+                alt="avatar"
+              />
+        
+              <Box py={5} textAlign="center">
+                <Link
+                  display="block"
+                  fontSize="2xl"
+                  color={useColorModeValue("gray.800", "white")}
+                  fontWeight="bold"
+                >
+                  {props.title}
+                </Link>
+                <chakra.span
+                  fontSize="md"
+                  color={useColorModeValue("gray.700", "gray.200")}
+                >
+                  {props.content}
+                </chakra.span>
+              </Box>
+            </Box>
+          </Flex>
+
+          )
+      }   
+      
+export default ServiceSection1

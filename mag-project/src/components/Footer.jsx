@@ -145,7 +145,7 @@ import {
             <Logo />
           </Flex>
           <Text pt={6} fontSize={'sm'} textAlign={'center'}>
-            © 2020 MAG Consultants. All rights reserved
+            © 2022 MAG Consultants. All rights reserved
           </Text>
         </Box>
       </Box>
