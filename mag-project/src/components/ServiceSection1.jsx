@@ -7,17 +7,16 @@ import {
     useColorModeValue,
     Link
   } from "@chakra-ui/react"; 
- import './service.css'; 
   
 const ServiceSection1 = (props) => {
-  
+
           return (
-            
-            <Flex className = "parent"
+           
+            <Flex
             bg={useColorModeValue("#F9FAFB", "gray.600")}
             p={50}
-            w="auto"
-            alignItems="flex-start"
+            w="full"
+            alignItems="center"
             justifyContent="center"
           >
             <Box 
@@ -54,8 +53,7 @@ const ServiceSection1 = (props) => {
               </Box>
             </Box>
           </Flex>
-
-          )
-      }   
+    )
+}   
       
 export default ServiceSection1

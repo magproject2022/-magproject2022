@@ -51,7 +51,7 @@ import {MdWork} from 'react-icons/md';
         <Flex
           bg={useColorModeValue("#F9FAFB", "gray.600")}
           p={20}
-          w="auto"
+          flexDirection = "row"
           justifyContent="center"
           alignItems="center"
         >
