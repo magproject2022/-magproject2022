@@ -103,8 +103,8 @@ export default function HomeSection1() {
               />
             }
           >
-            Hand crafted dashboards for everything from Recurring Revenue to
-            Customer Churn.
+            We&apos;ll get in touch with you as soon as possible to talk about our
+            online platform.
           </Feature>
 
           <Feature
@@ -124,8 +124,7 @@ export default function HomeSection1() {
               />
             }
           >
-            Your central hub that helps you see, and react to, absolutely
-            everything that’s happening.
+            Rest assured we will carefully evaluate your qualifications.
           </Feature>
 
           <Feature
@@ -139,8 +138,7 @@ export default function HomeSection1() {
               />
             }
           >
-            Stay informed with daily, weekly, or monthly reports on all your
-            insights data.
+            We will conduct an interview either Face-to-Face or by phone.
           </Feature>
 
           <Feature
@@ -154,8 +152,8 @@ export default function HomeSection1() {
                 />  
             }
           >
-            Our forecasting is your magical crystal ball that helps you predict
-            and plan for the future.
+            Our focus here is to avoid various types of 
+            liability to your future employer.
           </Feature>
           <Feature
             color="teal"
@@ -168,8 +166,8 @@ export default function HomeSection1() {
                   />
               }
             >
-            How does your company compare? Learn how your company stacks up in
-            the industry.
+            We are going to select the company
+            that best suit your skill sets.
           </Feature>
           <Feature
             color="pink"
@@ -182,8 +180,7 @@ export default function HomeSection1() {
               />
             }
           >
-            Organize your customers to bring meaningful and comparative insights
-            across your dashboards.
+            This is the process wherein you will meet your potential employer.
           </Feature>
           <Feature
             color="orange"
@@ -191,13 +188,12 @@ export default function HomeSection1() {
             icon={
               <path
                 fillRule="evenodd"
-                d="M24 22h-24v-20h24v20zm-1-19h-22v18h22v-18zm-4 13v1h-4v-1h4zm-6.002 1h-10.997l-.001-.914c-.004-1.05-.007-2.136 1.711-2.533.789-.182 1.753-.404 1.892-.709.048-.108-.04-.301-.098-.407-1.103-2.036-1.305-3.838-.567-5.078.514-.863 1.448-1.359 2.562-1.359 1.105 0 2.033.488 2.545 1.339.737 1.224.542 3.033-.548 5.095-.057.106-.144.301-.095.41.14.305 1.118.531 1.83.696 1.779.41 1.773 1.503 1.767 2.56l-.001.9zm-9.998-1h8.999c.003-1.014-.055-1.27-.936-1.473-1.171-.27-2.226-.514-2.57-1.267-.174-.381-.134-.816.119-1.294.921-1.739 1.125-3.199.576-4.111-.332-.551-.931-.855-1.688-.855-.764 0-1.369.31-1.703.871-.542.91-.328 2.401.587 4.09.259.476.303.912.13 1.295-.342.757-1.387.997-2.493 1.252-.966.222-1.022.478-1.021 1.492zm18-3v1h-6v-1h6zm0-3v1h-6v-1h6zm0-3v1h-6v-1h6z"
+                d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-1 1h-16v20h16v-20zm-2 16h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z"
                 clipRule="evenodd"
               />
             }
           >
-            Improve your conversion rates by monitoring exactly what’s going on
-            while your customers are in trial.
+            The employer will talk to you about your application.
           </Feature>
 
           <Feature
@@ -211,8 +207,8 @@ export default function HomeSection1() {
              />
             }
           >
-            Personalized segmentation, rich customer profiles, manual
-            subscriptions, and more!
+            You can count on us to be there with you all the time
+            to ensure the smooth transition into the company.
           </Feature>
 
           <Feature
@@ -226,20 +222,20 @@ export default function HomeSection1() {
               />
             }
           >
-            Merge external data with your metrics for deeper insights in to your
-            customers and your business.
+            Applicants must complete any other additional requirements
+            in prior to get hired. 
           </Feature>
 
           <Feature
             color="cyan"
             title="10. Job Placement"
             icon={
-              <path d="M23.995 24h-1.995c0-3.104.119-3.55-1.761-3.986-2.877-.664-5.594-1.291-6.584-3.458-.361-.791-.601-2.095.31-3.814 2.042-3.857 2.554-7.165 1.403-9.076-1.341-2.229-5.413-2.241-6.766.034-1.154 1.937-.635 5.227 1.424 9.025.93 1.712.697 3.02.338 3.815-.982 2.178-3.675 2.799-6.525 3.456-1.964.454-1.839.87-1.839 4.004h-1.995l-.005-1.241c0-2.52.199-3.975 3.178-4.663 3.365-.777 6.688-1.473 5.09-4.418-4.733-8.729-1.35-13.678 3.732-13.678 4.983 0 8.451 4.766 3.732 13.678-1.551 2.928 1.65 3.624 5.09 4.418 2.979.688 3.178 2.143 3.178 4.663l-.005 1.241zm-13.478-6l.91 2h1.164l.92-2h-2.994zm2.995 6l-.704-3h-1.615l-.704 3h3.023z"
+              <path d="M16.85,7.275l-3.967-0.577l-1.773-3.593c-0.208-0.423-0.639-0.69-1.11-0.69s-0.902,0.267-1.11,0.69L7.116,6.699L3.148,7.275c-0.466,0.068-0.854,0.394-1,0.842c-0.145,0.448-0.023,0.941,0.314,1.27l2.871,2.799l-0.677,3.951c-0.08,0.464,0.112,0.934,0.493,1.211c0.217,0.156,0.472,0.236,0.728,0.236c0.197,0,0.396-0.048,0.577-0.143l3.547-1.864l3.548,1.864c0.18,0.095,0.381,0.143,0.576,0.143c0.256,0,0.512-0.08,0.729-0.236c0.381-0.277,0.572-0.747,0.492-1.211l-0.678-3.951l2.871-2.799c0.338-0.329,0.459-0.821,0.314-1.27C17.705,7.669,17.316,7.343,16.85,7.275z M13.336,11.754l0.787,4.591l-4.124-2.167l-4.124,2.167l0.788-4.591L3.326,8.5l4.612-0.67l2.062-4.177l2.062,4.177l4.613,0.67L13.336,11.754z"
               />
             }
           >
-            Want your metrics in other services? Extend and integrate to our
-            every part of your business.
+            This is our commitment to find the right job
+            just for you.
           </Feature>
 
           <Feature
@@ -253,25 +249,22 @@ export default function HomeSection1() {
               />
             }
           >
-            Send important updates from here to your team’s Support channels.
+            Let us congratulate you for doing the right thing
+            that led you to fulfilling your dreams.
           </Feature>
 
           <Feature
             color="blue"
             title="12. Feedback"
             icon={
-              <>
                 <path
                   fillRule="evenodd"
-                  d="M21.502 19.525c1.524-1.105 2.498-2.738 2.498-4.554 0-3.326-3.237-6.023-7.229-6.023s-7.229 2.697-7.229 6.023c0 3.327 3.237 6.024 7.229 6.024.825 0 1.621-.117 2.36-.33l.212-.032c.139 0 .265.043.384.111l1.583.914.139.045c.133 0 .241-.108.241-.241l-.039-.176-.326-1.215-.025-.154c0-.162.08-.305.202-.392zm-12.827-17.228c-4.791 0-8.675 3.236-8.675 7.229 0 2.178 1.168 4.139 2.997 5.464.147.104.243.276.243.471l-.03.184-.391 1.458-.047.211c0 .16.13.29.289.29l.168-.054 1.899-1.097c.142-.082.293-.133.46-.133l.255.038c.886.255 1.842.397 2.832.397l.476-.012c-.188-.564-.291-1.158-.291-1.771 0-3.641 3.542-6.593 7.911-6.593l.471.012c-.653-3.453-4.24-6.094-8.567-6.094zm5.686 11.711c-.532 0-.963-.432-.963-.964 0-.533.431-.964.963-.964.533 0 .964.431.964.964 0 .532-.431.964-.964.964zm4.82 0c-.533 0-.964-.432-.964-.964 0-.533.431-.964.964-.964.532 0 .963.431.963.964 0 .532-.431.964-.963.964zm-13.398-5.639c-.639 0-1.156-.518-1.156-1.156 0-.639.517-1.157 1.156-1.157.639 0 1.157.518 1.157 1.157 0 .638-.518 1.156-1.157 1.156zm5.783 0c-.639 0-1.156-.518-1.156-1.156 0-.639.517-1.157 1.156-1.157.639 0 1.157.518 1.157 1.157 0 .638-.518 1.156-1.157 1.156z"
+                  d="M20 0a4 4 0 0 1 4 4v16a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4h16zm-.87 11.98a5.11 5.11 0 0 0-6.68-1.01c-2.37 1.58-2.67 4.52-.62 6.45a4.7 4.7 0 0 0 3.84 1.27c.48-.05.96-.32 1.42-.27.46.05.9.37 1.36.58l-.05-.25a.49.49 0 0 0-.04-.1c-.27-.5-.15-.83.23-1.2l.1-.1a3.89 3.89 0 0 0 .44-5.37zm-4.94-4.76A5.87 5.87 0 0 0 7.72 5.3a5.07 5.07 0 0 0-3.54 3.5 4.58 4.58 0 0 0 1.78 5.01l.2.15c.24.17.3.33.25.58l-.03.1c-.12.4-.19.84-.3 1.34l.99-.63.61-.38a1 1 0 0 1 .56-.1c.53.05 1.06.13 1.64.2a4.65 4.65 0 0 1 1.41-3.9 5.63 5.63 0 0 1 3.83-1.57 4.54 4.54 0 0 0-.93-2.38zm-1.09 5.4a.56.56 0 0 1 0 1.12.56.56 0 0 1-.56-.54.57.57 0 0 1 .56-.58zm3.45 0c.31 0 .55.26.54.58a.54.54 0 0 1-.55.54.55.55 0 0 1-.54-.58c.01-.3.26-.54.55-.54zm-4.7-4.32c.37-.01.67.28.68.66 0 .38-.29.68-.67.68a.67.67 0 0 1-.68-.66c0-.36.3-.68.67-.68zm-4.23 0c.37 0 .67.33.66.7a.68.68 0 0 1-.7.64.66.66 0 0 1-.65-.7.67.67 0 0 1 .7-.64z"
                   clipRule="evenodd"
                 />
-                <path d="M11 4a1 1 0 10-2 0v1a1 1 0 002 0V4zM10 7a1 1 0 011 1v1h2a1 1 0 110 2h-3a1 1 0 01-1-1V8a1 1 0 011-1zM16 9a1 1 0 100 2 1 1 0 000-2zM9 13a1 1 0 011-1h1a1 1 0 110 2v2a1 1 0 11-2 0v-3zM7 11a1 1 0 100-2H4a1 1 0 100 2h3zM17 13a1 1 0 01-1 1h-2a1 1 0 110-2h2a1 1 0 011 1zM16 17a1 1 0 100-2h-3a1 1 0 100 2h3z" />
-              </>
             }
           >
-            Goals, Breakouts, Instant notifications, Comparisons, Annotations
-            and Cohort Analysis!
+            Feel free to share your experience with us.
           </Feature>
         </SimpleGrid>
       </Box>
