@@ -9,19 +9,11 @@ const Contact = () => {
             <div className="dbl_field">
                 <div className="field">
                     <input type="text" placeholder='Enter your name'/>
-                </div>
-                <div className="field">
                     <input type="email" placeholder='Enter your email'/><i class="bi bi-person"></i>
-                </div>
-                <div className="field">
                     <input type="number" placeholder='Enter your phone'/><i class="bi bi-person"></i>
+                    <input type="text" placeholder='Write A Message...'/><i class="bi bi-person"></i>
                 </div>
-                <div className="field">
-                    <input type="text" placeholder='Write A Message'/><i class="bi bi-person"></i>
-                </div>
-            </div>
-            <div className="field">
-                    <button type="submit">Send Message</button>
+                <button type="submit">Send Message</button>
             </div>
         </form>
     </div>

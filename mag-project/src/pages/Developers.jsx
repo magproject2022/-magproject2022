@@ -57,7 +57,7 @@ const Developers = () => {
             <Stack spacing={0} align={'center'}>
               <Text fontWeight={600}>23k</Text>
               <Text fontSize={'sm'} color={'gray.500'}>
-                Followers
+                Followers a
               </Text>
             </Stack>
             <Stack spacing={0} align={'center'}>
