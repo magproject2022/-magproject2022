@@ -20,7 +20,7 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
 
 
-const Links = ['Home', 'About', 'Services', 'Testimonials', 'Contact', 'Developers'];
+const Links = ['Home', 'About', 'Developers', 'Services', 'Testimonials', 'Contact'];
 
 const NavLink = ({ children }) => (
   <Link
@@ -66,7 +66,7 @@ export default function Navbar() {
               spacing={4}
               display={{ base: 'none', lg: 'flex' }}>
               {Links.map((link) => (
-                <NavLink key={"/{link}"}>{link}</NavLink>
+                <NavLink key={link}>{link}</NavLink>
               ))}
             </HStack>
           </HStack>

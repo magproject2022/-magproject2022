@@ -19,6 +19,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
 import Testimonials from './pages/Testimonials';
+import Developers from './pages/Developers';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -36,6 +37,7 @@ function App() {
                 <Route exact path="/Contact" element={<Contact />}></Route>
                 <Route exact path="/Services" element={<Services />}></Route>
                 <Route exact path="/Testimonials" element={<Testimonials />}></Route>
+                <Route exact path="/Developers" element={<Developers />}></Route>
               </Routes>
             </Router>
           </VStack>
