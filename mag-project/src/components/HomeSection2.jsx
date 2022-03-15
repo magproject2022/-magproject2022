@@ -1,137 +1,108 @@
-import React from 'react';
-//import Image from 'next/image';
+import React from 'react'
+
 import {
-  Box,
-  Flex,
-  Image,
-  Heading,
-  Text,
-  Stack,
-  Avatar,
-  useColorModeValue,
-} from '@chakra-ui/react';
+    Container,
+    SimpleGrid,
+    Image,
+    Flex,
+    Heading,
+    Text,
+    Stack,
+    StackDivider,
+    useColorModeValue,
+  } from '@chakra-ui/react';
 
+  import {GiEcology} from 'react-icons/gi';  
+  import {FaHandsHelping} from 'react-icons/fa';  
+  import {GiThreeFriends} from 'react-icons/gi';
 
-const HomeSection2 = () => {
-  return (
-    <Stack widtht={'calc(100vw - 64px)'} direction={{ base: 'column', md: 'row' }}> 
-    <Flex p={8} flex={1} align={'center'} justify={'center'}>
-    <Box
-      maxW={'445px'}
-      w={'full'}
-      bg={useColorModeValue('white', 'gray.900')}
-      boxShadow={'2xl'}
-      rounded={'md'}
-      p={6}
-      overflow={'hidden'}>
-      <Box
-        h={'210px'}
-        bg={'gray.100'}
-        mt={-6}
-        mx={-6}
-        mb={6}
-        pos={'relative'}>
-        <Image
-          src={
-            'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
-          }
-          layout={'fill'}
-        />
-      </Box>
-      <Stack>
-        <Text
-          color={'green.500'}
-          textTransform={'uppercase'}
-          fontWeight={800}
-          fontSize={'sm'}
-          letterSpacing={1.1}>
-          Blog
-        </Text>
-        <Heading
-          color={useColorModeValue('gray.700', 'white')}
-          fontSize={'2xl'}
-          fontFamily={'body'}>
-          Boost your conversion rate
-        </Heading>
-        <Text color={'gray.500'}>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-          erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-          et ea rebum.
-        </Text>
+//import { ReactElement } from 'react';
+  
+//   interface Feature(props) {
+//     text: string;
+//     iconBg: string;
+//     icon?: SVGRectElement;
+//   }
+//"use strict";
+const Feature = (props) => {
+    return (
+      <Stack direction={'row'} align={'center'}>
+        <Flex
+          w={8}
+          h={8}
+          align={'center'}
+          justify={'center'}
+          rounded={'full'}
+          bg={props.iconBg}>
+          {props.icon}
+        </Flex>
+        <Text fontWeight={600}>{props.text}</Text>
       </Stack>
-
-      <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
-        <Avatar
-          src={'https://avatars0.githubusercontent.com/u/1164541?v=4'}
-          alt={'Author'}
-        />
-        <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-          <Text fontWeight={600}>Achim Rolle</Text>
-          <Text color={'gray.500'}>Feb 08, 2021 · 6min read</Text>
-        </Stack>
-      </Stack>
-    </Box>
-    </Flex>
-    <Flex flex={1}>
-    <Box
-      maxW={'445px'}
-      w={'full'}
-      bg={useColorModeValue('white', 'gray.900')}
-      boxShadow={'2xl'}
-      rounded={'md'}
-      p={6}
-      overflow={'hidden'}>
-      <Box
-        h={'210px'}
-        bg={'gray.100'}
-        mt={-6}
-        mx={-6}
-        mb={6}
-        pos={'relative'}>
-        <Image
-          src={
-            'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
-          }
-          layout={'fill'}
-        />
-      </Box>
-      <Stack>
-        <Text
-          color={'green.500'}
-          textTransform={'uppercase'}
-          fontWeight={800}
-          fontSize={'sm'}
-          letterSpacing={1.1}>
-          Blog
-        </Text>
-        <Heading
-          color={useColorModeValue('gray.700', 'white')}
-          fontSize={'2xl'}
-          fontFamily={'body'}>
-          Boost your conversion rate
-        </Heading>
-        <Text color={'gray.500'}>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-          erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-          et ea rebum.
-        </Text>
-      </Stack>
-      <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
-        <Avatar
-          src={'https://avatars0.githubusercontent.com/u/1164541?v=4'}
-          alt={'Author'}
-        />
-        <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-          <Text fontWeight={600}>Achim Rolle</Text>
-          <Text color={'gray.500'}>Feb 08, 2021 · 6min read</Text>
-        </Stack>
-      </Stack>
-    </Box>
-  </Flex>
-  </Stack>
-  )
-}
-
-export default HomeSection2
+    );
+  };
+  
+  export default function HomeSection2() {
+    return (
+      <Container maxW={'5xl'} py={12}>
+        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+        <Flex>
+            <Image
+              rounded={'md'}
+              alt={'feature image'}
+              src={
+                'https://images.unsplash.com/photo-1554200876-56c2f25224fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
+              }
+              objectFit={'cover'}
+            />
+          </Flex>
+          <Stack spacing={4}>
+            <Text
+              textTransform={'uppercase'}
+              color={'blue.400'}
+              fontWeight={600}
+              fontSize={'sm'}
+              bg={useColorModeValue('blue.100', 'blue.900')}
+              p={2}
+              alignSelf={'flex-start'}
+              rounded={'md'}>
+              Our Story
+            </Text>
+            <Heading>A little glimpse of our Heritage</Heading>
+            <Text color={'gray.500'} fontSize={'lg'}>
+              MAG Consultants was founded on 2022 whose primary aim is to 
+              get you on board in the I.T. Industry
+            </Text>
+            <Stack
+              spacing={4}
+              divider={
+                <StackDivider
+                  borderColor={useColorModeValue('gray.100', 'gray.700')}
+                />
+              }>
+              <Feature
+                icon={
+                  <GiEcology w={5} h={5} />
+                }
+                iconBg={useColorModeValue('orange.100', 'orange.900')}
+                text={'Diversity'}
+              />
+              <Feature
+                icon={
+                <FaHandsHelping w={5} h={5} />
+                }
+                iconBg={useColorModeValue('green.100', 'green.900')}
+                text={'Commitment'}
+              />
+              <Feature
+                icon={
+                  <GiThreeFriends w={5} h={5} />
+                }
+                iconBg={useColorModeValue('purple.100', 'purple.900')}
+                text={'Teamwork'}
+              />
+            </Stack>
+          </Stack>
+        </SimpleGrid>
+      </Container>
+    );
+  }
