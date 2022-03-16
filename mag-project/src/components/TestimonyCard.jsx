@@ -11,10 +11,11 @@ import {
   useColorModeValue,
   Link,
 } from "@chakra-ui/react";
+import randomInteger from 'random-int';
 
 const TestimonyCard = (props) => {
   return (
-    <Flex direction={'column'} align={'center'}>
+    <Flex direction={'column'} align={'center'} >
       <Stack
         bg={useColorModeValue('white', 'gray.800')}
         boxShadow={'lg'}
@@ -22,7 +23,8 @@ const TestimonyCard = (props) => {
         rounded={'xl'}
         align={'center'}
         pos={'relative'}
-        width={'240px'}
+        grow='1'
+        minW='240px'
         height={'180px'}
         _after={{
           content: `""`,
@@ -51,7 +53,7 @@ const TestimonyCard = (props) => {
         </Text>
       </Stack>
       <Flex align={'center'} mt={8} direction={'column'}>
-        <Avatar src={'https://placeimg.com/480/480/people'} alt={props.name} mb={2} />
+        <Avatar src={`https://i.pravatar.cc/${randomInteger(500)}`} alt={props.name} mb={2} />
         <Stack spacing={-1} align={'center'}>
           <Text fontWeight={600}>{props.name}</Text>
           <Text fontSize={'sm'} color={useColorModeValue('gray.600', 'gray.400')}>
