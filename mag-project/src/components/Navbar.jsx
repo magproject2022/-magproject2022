@@ -32,7 +32,7 @@ const NavLink = ({ children }) => (
       textDecoration: 'none',
       bg: useColorModeValue('gray.200', 'gray.700'),
     }}
-    href={children == 'Home' ? '/' : `/${children}`}>
+    href={children === 'Home' ? '/' : `/${children}`}>
     {children}
   </Link>
 );

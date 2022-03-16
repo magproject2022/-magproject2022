@@ -21,7 +21,7 @@ import {MdWork} from 'react-icons/md';
                 color="white"
               >
                 <Icon
-                  boxSize={6}
+                  boxSize={20}
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -75,8 +75,12 @@ import {MdWork} from 'react-icons/md';
                   mx={{ lg: "auto" }}
                   color={useColorModeValue("gray.500", "gray.400")}
                 >
-                  Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-                  magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                  To accomplish the career you want, you need to be strategic 
+                  to your profession. That&apos;s where mapping out your career path
+                  can be a significant help. Your career path is series of jobs you 
+                  take that leads you to your dream profession. A career plan consists 
+                  of short and long term goals that you endeavor for along with your
+                  career path. 
                 </chakra.p>
               </Box>
     
@@ -95,9 +99,8 @@ import {MdWork} from 'react-icons/md';
                       <AiFillCloud color={useColorModeValue("blue", "white")}/>
                     }
                   >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    Many individuals wants a job that is interesting, fulfilling and
+                    well compensated.
                   </Feature>
     
                   <Feature
