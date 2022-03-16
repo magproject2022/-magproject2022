@@ -4,7 +4,7 @@ import{Box, Flex, Icon, chakra,
 import {AiFillCloud} from 'react-icons/ai';
 import {BiMoney} from 'react-icons/bi';  
 import {FaBuilding} from 'react-icons/fa';  
-import {MdWork} from 'react-icons/md';
+import {RiBroadcastFill} from 'react-icons/ri';
 
     export default function ServiceHeader(){
       const Feature = (props) => {
@@ -55,7 +55,7 @@ import {MdWork} from 'react-icons/md';
           justifyContent="center"
           alignItems="center"
         >
-          <Box py={12} bg={useColorModeValue("white", "gray.800")} rounded="xl">
+          <Box py={12} bg={useColorModeValue('gray.50', "gray.800")} rounded="xl">
             <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
               <Box textAlign={{ lg: "center" }}>
                 <chakra.p
@@ -100,7 +100,7 @@ import {MdWork} from 'react-icons/md';
                     }
                   >
                     Many individuals wants a job that is interesting, fulfilling and
-                    well compensated.
+                    well compensated. We will be with you to achieve this goals.
                   </Feature>
     
                   <Feature
@@ -110,9 +110,9 @@ import {MdWork} from 'react-icons/md';
                         color={useColorModeValue("blue", "white")}/>
                     }
                   >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    A compensation research is the procedure businesses use
+                    to acknowledge how they are paying their employees.
+
                   </Feature>
     
                   <Feature
@@ -122,21 +122,19 @@ import {MdWork} from 'react-icons/md';
                         color={useColorModeValue("blue", "white")}/>
                     }
                   >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    You can explore various companies that are tied up with us. We mean
+                    big companies that are waiting and looking for you.
                   </Feature>
     
                   <Feature
-                    title="Apply for Jobs"
+                    title="Communication"
                     icon={
-                      <MdWork
+                      <RiBroadcastFill
                       color={useColorModeValue("blue", "white")}/> 
                     }
                   >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    We utmost you as our priority. You are welcome to 
+                    approach us any time.
                   </Feature>
                 </Stack>
               </Box>

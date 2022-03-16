@@ -12,7 +12,7 @@ import {
 
 const HomeHeader = () => {
   return (
-    <Box>
+    <Box p={8}>
     <Stack height={'calc(100vh - 64px)'} direction={{ base: 'column', md: 'row' }}>
       <Flex p={8} flex={1} align={'center'} justify={'center'}>
         <Stack spacing={6} w={'full'} maxW={'lg'}>
@@ -46,7 +46,7 @@ const HomeHeader = () => {
               bg={'blue.400'}
               color={'white'}
               _hover={{
-                bg: 'blue.500',
+                bg: 'blue.600',
               }}
               onClick={(e) => {
                 e.preventDefault();
@@ -56,6 +56,11 @@ const HomeHeader = () => {
             </Button>
             <Button 
               rounded={'full'}
+              bg={'green.400'}
+              color={'white'}
+              _hover={{
+                bg: 'green.600',
+              }}
               onClick={(e) => {
                 e.preventDefault();
                 window.location.href='/Services';

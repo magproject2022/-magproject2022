@@ -10,7 +10,6 @@ import {
   theme,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
 import Sample from './components/Sample';
 import SampleNav from './components/SampleNav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -22,6 +21,7 @@ import Testimonials from './pages/Testimonials';
 import Developers from './pages/Developers';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+
 
 function App() {
   return (
