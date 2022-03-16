@@ -1,5 +1,5 @@
-import React from 'react'
-import '../footer.css'
+import React from 'react';
+import '../footer.css';
 import {
     Box,
     chakra,
@@ -63,7 +63,7 @@ import {
         color={useColorModeValue('gray.700', 'gray.200')}>
         <Container as={Stack} maxW={'6xl'} py={10}>
           <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
-            <Stack align={'flex-start'}>
+            <Stack align={'center'}>
               <ListHeader>Services</ListHeader>
               <Link href={'#'}>Overview</Link>
               <Stack direction={'row'} align={'center'} spacing={2}>
@@ -80,7 +80,7 @@ import {
               <Link href={'#'}>Pricing</Link>
               <Link href={'#'}>Releases</Link>
             </Stack>
-            <Stack align={'flex-start'}>
+            <Stack align={'center'}>
               <ListHeader>Company</ListHeader>
               <Link href={'#'}>About Us</Link>
               <Link href={'#'}>Press</Link>
@@ -88,7 +88,7 @@ import {
               <Link href={'#'}>Contact Us</Link>
               <Link href={'#'}>Partners</Link>
             </Stack>
-            <Stack align={'flex-start'}>
+            <Stack align={'center'}>
               <ListHeader>Legal</ListHeader>
               <Link href={'#'}>Cookies Policy</Link>
               <Link href={'#'}>Privacy Policy</Link>
@@ -96,7 +96,7 @@ import {
               <Link href={'#'}>Law Enforcement</Link>
               <Link href={'#'}>Status</Link>
             </Stack>
-            <Stack align={'flex-start'}>
+            <Stack align={'center'}>
               <ListHeader >Follow Us</ListHeader>
               <SocialButton label={'Twitter'} href={'#'}>
               <FaTwitter />
