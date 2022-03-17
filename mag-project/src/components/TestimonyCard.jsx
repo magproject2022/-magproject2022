@@ -23,9 +23,9 @@ const TestimonyCard = (props) => {
         rounded={'xl'}
         align={'center'}
         pos={'relative'}
-        grow='1'
-        minW='240px'
-        height={'180px'}
+        grow={'1'}
+        minW={'240px'}
+        height={'280px'}
         _after={{
           content: `""`,
           w: 0,
@@ -48,7 +48,9 @@ const TestimonyCard = (props) => {
         <Text
           textAlign={'center'}
           color={useColorModeValue('gray.600', 'gray.400')}
-          fontSize={'sm'}>
+          fontSize={'sm'}
+          overflow={'overlay'}
+        >
           {props.text}
         </Text>
       </Stack>

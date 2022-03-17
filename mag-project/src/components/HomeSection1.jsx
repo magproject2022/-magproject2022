@@ -13,7 +13,11 @@ import './Icons';
 export default function HomeSection1() {
   const Feature = (props) => {
     return (
-      <Box>
+      <Flex
+        direction={'column'}
+        justify={'start'}  
+        align={'center'}
+      >
         <Flex
           alignItems="center"
           justifyContent="center"
@@ -47,14 +51,14 @@ export default function HomeSection1() {
         >
           {props.children}
         </chakra.p>
-      </Box>
+      </Flex>
     );
   };
   return (
     <Flex
       bg={useColorModeValue("gray.100", "gray.600")}
-      p={20}
-      w="auto"
+      p={{ base: 4, md: 12 }}
+      w={"100vw"}
       justifyContent="center"
       alignItems="center"
     >

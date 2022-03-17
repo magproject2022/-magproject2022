@@ -48,8 +48,17 @@ import {RiBroadcastFill} from 'react-icons/ri';
         );
       };
       return (
-          <Container maxW={'container.2xl'} py={12} bg={useColorModeValue('gray.25', "gray.800")} rounded="xl">
-            <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
+          <Container 
+            maxW={'container.2xl'} 
+            p={12} 
+            bg={useColorModeValue('gray.25', "gray.800")} 
+            rounded="xl"
+          >
+            <Box 
+              maxW="7xl" 
+              mx="auto" 
+              px={{ base: 4, lg: 8 }}
+            >
               <Box textAlign={{ lg: "center" }}>
                 <chakra.p
                   mt={2}
