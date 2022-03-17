@@ -27,8 +27,9 @@ const Contact = () => {
                     <input type="text" placeholder='Write A Message...'/><i class="bi bi-person"></i>
                 </div>
                 <button type="submit">Send Message</button>
-            </div>a
+            </div>
         </form>
+        <br></br><br></br><br></br><br></br><br></br><br></br>
     </div>
   )
 }
