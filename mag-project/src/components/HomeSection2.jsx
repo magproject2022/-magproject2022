@@ -17,14 +17,6 @@ import {
   import {FaHandsHelping} from 'react-icons/fa';  
   import {GiThreeFriends} from 'react-icons/gi';
 
-//import { ReactElement } from 'react';
-  
-//   interface Feature(props) {
-//     text: string;
-//     iconBg: string;
-//     icon?: SVGRectElement;
-//   }
-//"use strict";
 const Feature = (props) => {
     return (
       <Stack direction={'row'} align={'center'}>
