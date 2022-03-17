@@ -2,16 +2,9 @@ import React from 'react';
 import {
   ChakraProvider,
   Box,
-  Text,
-  Link,
-  VStack,
-  Code,
   Grid,
   theme,
 } from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import Sample from './components/Sample';
-import SampleNav from './components/SampleNav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -29,7 +22,6 @@ function App() {
       <Box textAlign="center" fontSize="xl">
         <Navbar />
         <Grid minH="calc(100vh - 654px)" p={0}>
-          <VStack spacing={8}>
             <Router>
               <Routes>
                 <Route exact path="/" element={<Home />} />
@@ -40,7 +32,6 @@ function App() {
                 <Route exact path="/Developers" element={<Developers />} />
               </Routes>
             </Router>
-          </VStack>
         </Grid>
         <Footer />
       </Box>

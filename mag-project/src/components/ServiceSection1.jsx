@@ -14,8 +14,6 @@ const ServiceSection1 = (props) => {
            
             <Flex
             bg={useColorModeValue('gray.50', "gray.800")}
-            p={50}
-            w="full"
             alignItems="center"
             justifyContent="center"
           >

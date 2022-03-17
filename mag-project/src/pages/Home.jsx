@@ -6,9 +6,9 @@ import HomeSection2 from '../components/HomeSection2';
 const Home = () => {
   return (
     <div>
-    <HomeHeader/>
-    <HomeSection1/>
-    <HomeSection2/>
+      <HomeHeader />
+      <HomeSection1 />
+      <HomeSection2 />
     </div>
   )
 }

@@ -52,7 +52,7 @@ export default function HomeSection1() {
   };
   return (
     <Flex
-      bg={useColorModeValue("#F9FAFB", "gray.600")}
+      bg={useColorModeValue("gray.100", "gray.600")}
       p={20}
       w="auto"
       justifyContent="center"

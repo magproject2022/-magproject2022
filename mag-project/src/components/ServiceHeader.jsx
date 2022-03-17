@@ -1,6 +1,6 @@
 import React from 'react'
 import{Box, Flex, Icon, chakra, 
-    useColorModeValue, Stack} from '@chakra-ui/react';
+    useColorModeValue, Stack, Container} from '@chakra-ui/react';
 import {AiFillCloud} from 'react-icons/ai';
 import {BiMoney} from 'react-icons/bi';  
 import {FaBuilding} from 'react-icons/fa';  
@@ -48,14 +48,7 @@ import {RiBroadcastFill} from 'react-icons/ri';
         );
       };
       return (
-        <Flex
-          bg={useColorModeValue("#F9FAFB", "gray.600")}
-          p={20}
-          flexDirection = "row"
-          justifyContent="center"
-          alignItems="center"
-        >
-          <Box py={12} bg={useColorModeValue('gray.50', "gray.800")} rounded="xl">
+          <Container maxW={'container.2xl'} py={12} bg={useColorModeValue('gray.25', "gray.800")} rounded="xl">
             <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
               <Box textAlign={{ lg: "center" }}>
                 <chakra.p
@@ -139,8 +132,7 @@ import {RiBroadcastFill} from 'react-icons/ri';
                 </Stack>
               </Box>
             </Box>
-          </Box>
-        </Flex>
+          </Container>
       );
     }
 
