@@ -92,7 +92,7 @@ const Developers = () => {
             }
             alt={'Author'}
             css={{
-              border: '2px solid white',
+              border: '3px solid white',
             }}
           />
         </Flex>
