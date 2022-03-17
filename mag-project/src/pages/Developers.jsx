@@ -167,7 +167,7 @@ const Developers = () => {
               transform: 'translateY(-2px)',
               boxShadow: 'lg',
             }}>
-            Visit Profile
+              Visit Profile
           </Button>
         </Box>
                 </Box>
