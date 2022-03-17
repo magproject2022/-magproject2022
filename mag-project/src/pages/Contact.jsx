@@ -1,10 +1,23 @@
 import React from 'react'
 import './Contact3.css'
+import {
+    Heading,
+    Avatar,
+    Box,
+    Center,
+    Image,
+    Flex,
+    Text,
+    Stack,
+    Button,
+    useColorModeValue,
+  } from '@chakra-ui/react';
+  
 const Contact = () => {
   return (
     <div className='wrapper'><br></br>
         <header>Contact Our Team</header>
-        <br></br>
+        
         <form action="#">
             <div className="dbl_field">
                 <div className="field">
@@ -14,7 +27,7 @@ const Contact = () => {
                     <input type="text" placeholder='Write A Message...'/><i class="bi bi-person"></i>
                 </div>
                 <button type="submit">Send Message</button>
-            </div>
+            </div>a
         </form>
     </div>
   )
