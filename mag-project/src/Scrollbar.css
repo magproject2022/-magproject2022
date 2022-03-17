@@ -1,0 +1,23 @@
+body {
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #A0AEC080;
+  border-radius: 16px;
+  /* Handle on hover */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A0AEC0;
+}
