@@ -1,16 +1,13 @@
-/* footer {
+footer {
     height: 70px;
-    position: fixed;
     bottom: 0;
-    background: #e9ecef;
+    background: black;
     padding: 10px 0;
     width: 100%;
+    overflow-x: hidden;
+    position: absolute;
+	left: 0;
+	right: 0;
+	z-index: fixed;
 }
-
-classFooter {
-    background-color: orange;
-    color: grey;
-    text-align: center;
-    padding: 5px;
-    border: 1px solid grey;
-}     */
+ 

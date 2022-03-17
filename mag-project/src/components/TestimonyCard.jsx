@@ -4,66 +4,65 @@ import {
   Box,
   Image,
   Flex,
+  Stack,
+  Heading,
+  Text,
+  Avatar,
   useColorModeValue,
   Link,
 } from "@chakra-ui/react";
+import randomInteger from 'random-int';
 
-export default function TestimonyCard(){
+const TestimonyCard = (props) => {
   return (
-    <Flex
-      bg={useColorModeValue("#F9FAFB", "gray.600")}
-      p={50}
-      w="full"
-      alignItems="center"
-      justifyContent="center"
-    >
-      <Box
-        w="md"
-        mx="auto"
-        py={4}
-        px={8}
-        bg={useColorModeValue("white", "gray.800")}
-        shadow="lg"
-        rounded="lg"
-      >
-        <Flex justifyContent={{ base: "center", md: "end" }} mt={-16}>
-          <Image
-            w={20}
-            h={20}
-            fit="cover"
-            rounded="full"
-            borderStyle="solid"
-            borderWidth={2}
-            borderColor={useColorModeValue("brand.500", "brand.400")}
-            alt="Testimonial avatar"
-            src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=76&q=80"
-          />
-        </Flex>
-
-        <chakra.h2
-          color={useColorModeValue("gray.800", "white")}
-          fontSize={{ base: "2xl", md: "3xl" }}
-          mt={{ base: 2, md: 0 }}
-          fontWeight="bold"
-        >
-          Design Tools
-        </chakra.h2>
-
-        <chakra.p mt={2} color={useColorModeValue("gray.600", "gray.200")}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores
-          deserunt ea doloremque natus error, rerum quas odio quaerat nam ex
-          commodi hic, suscipit in a veritatis pariatur minus consequuntur!
-        </chakra.p>
-
-        <Flex justifyContent="end" mt={4}>
-          <Link
-            fontSize="xl"
-            color={useColorModeValue("brand.500", "brand.300")}
-          >
-            John Doe
-          </Link>
-        </Flex>
-      </Box>
+    <Flex direction={'column'} align={'center'} >
+      <Stack
+        bg={useColorModeValue('white', 'gray.800')}
+        boxShadow={'lg'}
+        p={8}
+        rounded={'xl'}
+        align={'center'}
+        pos={'relative'}
+        grow='1'
+        minW='240px'
+        height={'180px'}
+        _after={{
+          content: `""`,
+          w: 0,
+          h: 0,
+          borderLeft: 'solid transparent',
+          borderLeftWidth: 16,
+          borderRight: 'solid transparent',
+          borderRightWidth: 16,
+          borderTop: 'solid',
+          borderTopWidth: 16,
+          borderTopColor: useColorModeValue('white', 'gray.800'),
+          pos: 'absolute',
+          bottom: '-16px',
+          left: '50%',
+          transform: 'translateX(-50%)',
+        }}>
+        <Heading as={'h3'} fontSize={'xl'}>
+          {props.heading}
+        </Heading>
+        <Text
+          textAlign={'center'}
+          color={useColorModeValue('gray.600', 'gray.400')}
+          fontSize={'sm'}>
+          {props.text}
+        </Text>
+      </Stack>
+      <Flex align={'center'} mt={8} direction={'column'}>
+        <Avatar src={`https://i.pravatar.cc/${randomInteger(500)}`} alt={props.name} mb={2} />
+        <Stack spacing={-1} align={'center'}>
+          <Text fontWeight={600}>{props.name}</Text>
+          <Text fontSize={'sm'} color={useColorModeValue('gray.600', 'gray.400')}>
+            {props.title}
+          </Text>
+        </Stack>
+      </Flex>
     </Flex>
   );
 };
+
+export default TestimonyCard;

@@ -4,7 +4,7 @@ import{Box, Flex, Icon, chakra,
 import {AiFillCloud} from 'react-icons/ai';
 import {BiMoney} from 'react-icons/bi';  
 import {FaBuilding} from 'react-icons/fa';  
-import {MdWork} from 'react-icons/md';
+import {RiBroadcastFill} from 'react-icons/ri';
 
     export default function ServiceHeader(){
       const Feature = (props) => {
@@ -21,7 +21,7 @@ import {MdWork} from 'react-icons/md';
                 color="white"
               >
                 <Icon
-                  boxSize={6}
+                  boxSize={20}
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -55,7 +55,7 @@ import {MdWork} from 'react-icons/md';
           justifyContent="center"
           alignItems="center"
         >
-          <Box py={12} bg={useColorModeValue("white", "gray.800")} rounded="xl">
+          <Box py={12} bg={useColorModeValue('gray.50', "gray.800")} rounded="xl">
             <Box maxW="7xl" mx="auto" px={{ base: 4, lg: 8 }}>
               <Box textAlign={{ lg: "center" }}>
                 <chakra.p
@@ -75,8 +75,12 @@ import {MdWork} from 'react-icons/md';
                   mx={{ lg: "auto" }}
                   color={useColorModeValue("gray.500", "gray.400")}
                 >
-                  Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-                  magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                  To accomplish the career you want, you need to be strategic 
+                  to your profession. That&apos;s where mapping out your career path
+                  can be a significant help. Your career path is series of jobs you 
+                  take that leads you to your dream profession. A career plan consists 
+                  of short and long term goals that you endeavor for along with your
+                  career path. 
                 </chakra.p>
               </Box>
     
@@ -95,9 +99,8 @@ import {MdWork} from 'react-icons/md';
                       <AiFillCloud color={useColorModeValue("blue", "white")}/>
                     }
                   >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    Many individuals wants a job that is interesting, fulfilling and
+                    well compensated. We will be with you to achieve this goals.
                   </Feature>
     
                   <Feature
@@ -107,9 +110,9 @@ import {MdWork} from 'react-icons/md';
                         color={useColorModeValue("blue", "white")}/>
                     }
                   >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    A compensation research is the procedure businesses use
+                    to acknowledge how they are paying their employees.
+
                   </Feature>
     
                   <Feature
@@ -119,21 +122,19 @@ import {MdWork} from 'react-icons/md';
                         color={useColorModeValue("blue", "white")}/>
                     }
                   >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    You can explore various companies that are tied up with us. We mean
+                    big companies that are waiting and looking for you.
                   </Feature>
     
                   <Feature
-                    title="Apply for Jobs"
+                    title="Communication"
                     icon={
-                      <MdWork
+                      <RiBroadcastFill
                       color={useColorModeValue("blue", "white")}/> 
                     }
                   >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    We utmost you as our priority. You are welcome to 
+                    approach us any time.
                   </Feature>
                 </Stack>
               </Box>

@@ -13,7 +13,7 @@ const ServiceSection1 = (props) => {
           return (
            
             <Flex
-            bg={useColorModeValue("#F9FAFB", "gray.600")}
+            bg={useColorModeValue('gray.50', "gray.800")}
             p={50}
             w="full"
             alignItems="center"
@@ -21,7 +21,7 @@ const ServiceSection1 = (props) => {
           >
             <Box 
               w="xs"
-              bg={useColorModeValue("white", "gray.800")}
+              bg={useColorModeValue("white", "gray.700")}
               shadow="lg"
               rounded="lg"
               overflow="hidden"
@@ -44,6 +44,12 @@ const ServiceSection1 = (props) => {
                 >
                   {props.title}
                 </Link>
+                <chakra.span
+                  fontSize="md"
+                  color={useColorModeValue("gray.700", "gray.200")}
+                >
+                  {props.text}
+                </chakra.span><br/>
                 <chakra.span
                   fontSize="md"
                   color={useColorModeValue("gray.700", "gray.200")}

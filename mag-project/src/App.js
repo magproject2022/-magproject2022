@@ -10,7 +10,6 @@ import {
   theme,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
 import Sample from './components/Sample';
 import SampleNav from './components/SampleNav';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -23,26 +22,27 @@ import Developers from './pages/Developers';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
         <Navbar />
-        <Grid minH="calc(100vh - 64px)" p={0}>
+        <Grid minH="calc(100vh - 654px)" p={0}>
           <VStack spacing={8}>
             <Router>
               <Routes>
-                <Route exact path="/" element={<Home />}></Route>
-                <Route exact path="/About" element={<About />}></Route>
-                <Route exact path="/Contact" element={<Contact />}></Route>
-                <Route exact path="/Services" element={<Services />}></Route>
-                <Route exact path="/Testimonials" element={<Testimonials />}></Route>
-                <Route exact path="/Developers" element={<Developers />}></Route>
+                <Route exact path="/" element={<Home />} />
+                <Route exact path="/About" element={<About />} />
+                <Route exact path="/Contact" element={<Contact />} />
+                <Route exact path="/Services" element={<Services />} />
+                <Route exact path="/Testimonials" element={<Testimonials />} />
+                <Route exact path="/Developers" element={<Developers />} />
               </Routes>
             </Router>
           </VStack>
         </Grid>
-      <Footer/>
+        <Footer />
       </Box>
     </ChakraProvider>
   );
