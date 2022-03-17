@@ -14,6 +14,7 @@ import Testimonials from './pages/Testimonials';
 import Developers from './pages/Developers';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import './Scrollbar.css'
 
 
 function App() {

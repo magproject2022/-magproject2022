@@ -2,7 +2,7 @@
   /* scroll bar width, for use in mask calculations */
   --scrollbar-width: 8px;
   /* mask fade distance, for use in mask calculations */
-  --mask-height: 40px;
+  --mask-height: 20px;
   /* If content exceeds height of container, overflow! */
   /* Our height limit */
   /* Need to make sure container has bottom space,
@@ -21,7 +21,7 @@
   );
   /* Here we scale the content gradient to the width of the container 
   minus the scrollbar width. The height is the full container height */
-  --mask-size-content: calc(100% - var(--scrollbar-width)) 100%;
+  --mask-size-content: 100% 100%;
   /* The scrollbar mask is a black pixel */
   --mask-image-scrollbar: linear-gradient(black, black);
   /* The width of our black pixel is the width of the scrollbar.
@@ -34,8 +34,8 @@
           mask-size: var(--mask-size-content), var(--mask-size-scrollbar);
   /* Position the content gradient in the top left, and the 
   scroll gradient in the top right */
-  -webkit-mask-position: 0 0, 100% 0;
-          mask-position: 0 0, 100% 0;
+  -webkit-mask-position: 0 0, calc(100% - var(--mask-height)) 0;
+          mask-position: 0 0, calc(100% - var(--mask-height)) 0;
   /* We don't repeat our mask images */
   -webkit-mask-repeat: no-repeat, no-repeat;
           mask-repeat: no-repeat, no-repeat;
