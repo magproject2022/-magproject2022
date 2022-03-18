@@ -19,9 +19,10 @@ const ServiceSection1 = (props) => {
           >
             <Box 
               w="xs"
-              bg={useColorModeValue("white", "gray.700")}
+              h="420px"
+              bg={useColorModeValue("white", "gray.800")}
               shadow="lg"
-              rounded="lg"
+              rounded="md"
               overflow="hidden"
               mx="auto"
             >
@@ -33,7 +34,7 @@ const ServiceSection1 = (props) => {
                 alt="avatar"
               />
         
-              <Box py={5} textAlign="center">
+              <Box p={5} textAlign="center">
                 <Link
                   display="block"
                   fontSize="2xl"
