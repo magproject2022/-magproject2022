@@ -46,7 +46,7 @@ const Developers = () => {
           <Flex justify={'center'} mt={-12}>
             <Avatar
               size={'xl'}
-              src={''}
+              src={'./torres.jpg'}
               alt={'Author'}
               css={{
                 border: '2px solid white',
@@ -77,7 +77,12 @@ const Developers = () => {
               _hover={{
                 transform: 'translateY(-2px)',
                 boxShadow: 'lg',
-              }}>
+              }}
+              onClick={(e) => {
+                e.preventDefault();
+                window.open('https://whyteknight.github.io/portfolio/');
+              }} 
+            >
               Visit Profile
             </Button>
           </Flex>
@@ -102,7 +107,7 @@ const Developers = () => {
             <Avatar
               size={'xl'}
               src={
-                ''
+                './garcia.jpg'
               }
               alt={'Author'}
               css={{
@@ -135,7 +140,12 @@ const Developers = () => {
               _hover={{
                 transform: 'translateY(-2px)',
                 boxShadow: 'lg',
-              }}>
+              }}
+              onClick={(e) => {
+                e.preventDefault();
+                window.open('https://marcusrejinalgarcia.github.io/');
+              }} 
+            >
               Visit Profile
             </Button>
           </Flex>
@@ -160,7 +170,7 @@ const Developers = () => {
             <Avatar
               size={'xl'}
               src={
-                ''
+                './poe.jpg'
               }
               alt={'Author'}
               css={{
@@ -192,7 +202,12 @@ const Developers = () => {
               _hover={{
                 transform: 'translateY(-2px)',
                 boxShadow: 'lg',
-              }}>
+              }}
+              onClick={(e) => {
+                e.preventDefault();
+                window.open('https://whyteknight.github.io/portfolio/');
+              }} 
+            >
               Visit Profile
             </Button>
           </Flex>
