@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/-magproject2022/static/css/main.abe70787.css",
+    "main.js": "/-magproject2022/static/js/main.c208b045.js",
+    "static/js/377.95866084.chunk.js": "/-magproject2022/static/js/377.95866084.chunk.js",
+    "index.html": "/-magproject2022/index.html",
+    "main.abe70787.css.map": "/-magproject2022/static/css/main.abe70787.css.map",
+    "main.c208b045.js.map": "/-magproject2022/static/js/main.c208b045.js.map",
+    "377.95866084.chunk.js.map": "/-magproject2022/static/js/377.95866084.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abe70787.css",
+    "static/js/main.c208b045.js"
+  ]
+}
