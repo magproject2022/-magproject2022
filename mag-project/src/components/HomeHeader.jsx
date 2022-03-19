@@ -60,10 +60,10 @@ const HomeHeader = () => {
               </Button>
               <Button
                 rounded={'full'}
-                bg={'green.400'}
+                bg={'gray.400'}
                 color={'white'}
                 _hover={{
-                  bg: 'green.600',
+                  bg: 'gray.600',
                 }}
                 onClick={(e) => {
                   e.preventDefault();

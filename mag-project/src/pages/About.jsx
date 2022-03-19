@@ -23,7 +23,12 @@ const About = () => {
         <Container>
           We are a team of three who, despite our differences, found ourselves in a Web Development Bootcamp by KodeGo. Among other things, we mainly share one thing in common: a passion for coding.
         </Container>
-        <Button>Learn more</Button>
+        <Button
+          onClick={(e) => {
+          e.preventDefault();
+          window.location.href = '/Developers';
+          }}>Learn more
+        </Button>
       </Box>
     </Flex>
   )

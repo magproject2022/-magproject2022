@@ -1,4 +1,4 @@
-import React from 'react';
+import {React, useState} from 'react';
 import {
   Container,
   Flex,
@@ -28,15 +28,19 @@ import {
 import { BsPerson } from 'react-icons/bs';
 import { HiOutlineMail } from "react-icons/hi";
 import { SiFacebook, SiGithub, SiDiscord } from "react-icons/si";
-import "./Contact3.css";
 
 export default function ContactSection() {
 
-  //     const [input, setInput] = useState('')
+      const [input, setInput] = useState('')
+      const [email, setEmail] = useState('')
 
-  //     const handleInputChange = (e) => setInput(e.target.value)
+      const handleInputChange = (e) => setInput(e.target.value)
 
-  //     const isError = input === ''
+      const isError = input === ''
+
+      const handleEmailChange = (e) => setEmail(e.target.value)
+
+      const isErrorEmail = email === ''
 
   return (
     // <Flex direction={'column'} width={'100vw'}
@@ -144,28 +148,26 @@ export default function ContactSection() {
         <Box bg="white" borderRadius="lg" maxW={'320px'}>
           <Box m={8} color="#0B0E3F">
             <VStack spacing={5}>
-              {/* <FormControl isInvalid={isError}> */}
-              <FormControl id="name">
+              <FormControl isInvalid={isError}>
                 <FormLabel>Your Name</FormLabel>
                 <InputGroup borderColor="#E0E1E7">
                   <InputLeftElement
                     pointerEvents="none"
                     children={<BsPerson color="gray.800" />}
                   />
-                  {/* <Input type="text" size="md"
+                  <Input type="text" size="md"
                              value={input} onChange={handleInputChange}
-                            /> */}
-                  <Input type="text" size="md" value="Alexander Poe" />
+                            />
                 </InputGroup>
-                {/* {!isError ? (
+                {!isError ? (
                             <FormHelperText>
                             Please enter your Name
                             </FormHelperText>
                             ) : 
                             <FormErrorMessage>Name is required.</FormErrorMessage>
-                            } */}
-              </FormControl>
-              <FormControl id="name">
+                            }
+              </FormControl >
+              <FormControl isInvalid={isErrorEmail}>
                 <FormLabel>E-Mail</FormLabel>
                 <InputGroup borderColor="#E0E1E7">
                   <InputLeftElement
@@ -173,9 +175,16 @@ export default function ContactSection() {
                     children={<HiOutlineMail color="gray.800" />}
                   />
                   <Input type="email" size="md"
-                    value="alexpoe@gmail.com"
+                    value={email} onChange={handleEmailChange}
                   />
                 </InputGroup>
+                {!isErrorEmail ? (
+                            <FormHelperText>
+                            Please enter your E-mail
+                            </FormHelperText>
+                            ) : 
+                            <FormErrorMessage>E-mail is required.</FormErrorMessage>
+                            }
               </FormControl>
               <FormControl id="name">
                 <FormLabel>Message</FormLabel>
@@ -184,8 +193,7 @@ export default function ContactSection() {
                   _hover={{
                     borderRadius: 'gray.300',
                   }}
-                  placeholder="message" value="I would like to
-                              inquire about your service"
+                  placeholder="message" resize="none"
                 />
               </FormControl>
               <FormControl id="name" float="right">
